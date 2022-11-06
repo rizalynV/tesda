@@ -1,0 +1,164 @@
+.main-header {
+    background: url(images/vecteezy_background-fineartabstract_kp0121.jpg);
+    min-height: 800px;
+    background-size: cover;
+    background-position: center;
+    color:blueviolet
+}
+
+
+
+.main-header-signup {
+    background: url(images/vecteezy_background-fineartabstract_kp0121.jpg);
+    min-height: 350px;
+    background-size: cover;
+    background-position: center;
+    color:blueviolet
+}
+
+.main-header-signup .showcase { 
+    padding-top: 50px;
+}
+
+
+.section-developers {
+    position: relative;
+    background: url(../Images/img3.jpg);
+    background-size: cover;
+    background-position: top left;
+    min-height: 160px;
+}
+
+
+.section-podcast {
+    position: relative;
+    background: url(/Images/image\ 9.webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 160px;
+}
+
+
+.primary-overlay {
+    background: rgba(112, 81, 176, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+
+
+.btn-extend {
+    display: block;
+    width: 100%;
+}
+
+
+.btn-extend:hover {
+    border: 10px purple;
+    cursor: alias;
+}
+
+
+.tap-target {
+    right: -331.4px;
+    bottom: -326.6px;
+    position: fixed;
+}
+
+.h5 {
+    font-family: "Papyrus", fantasy;
+    border: cornflowerblue;
+  }
+
+  p.italic {
+    font-style: italic;
+
+  }
+
+  p.thick {
+    font-weight: bold; 
+}
+
+p.normal {
+    font-weight: normal
+
+}
+
+.section-card {
+    width: 50%;
+}
+
+
+.fas.fa-chess-king {
+    font-size:50px;
+    color: rgb(83, 53, 23)
+
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .far.fa-envelope {
+    font-size: large;
+    color: rgb(194, 123, 31);
+  }
+
+  .fas.fa-folder-open {
+    font-size: xx-large;
+    color: rgb(229, 241, 246);
+  }
+
+  .fa-instagram {
+    background: #f11550e7;
+    color: white;
+  }
+  
+  .fab.fa-github {
+    font-size: medium;
+    color: black;
+  }
+
+  .fab.fa-linkedin {
+    font-size: medium;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fas.fa-mobile-alt {
+    font-size: large;
+    color: rgb(194, 123, 31);
+
+  }
+
+  .fas.fa-puzzle-piece {
+    color: #55390de7;
+    font-size: xx-large;
+  }
+
+
+  .carousel.carousel-slider {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .showcase.container {
+    background: url(../Portfolio/images/vecteezy_background-fineartabstract_kp0121.jpg);
+  }

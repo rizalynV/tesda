@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+  <!-- Material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Contact</title>
+</head>
+
+<body>
+  <!--Header-->
+  <header class="main-header-signup">
+    <nav class="transparent">
+      <div class="container">
+        <div class="nav-wrapper">
+          <div class="brand-logo black-text"></div>
+          <a href="#" data-target="slide-out" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="index.html" class="black-text">Home</a>
+            </li>
+            <li>
+              <a href="personal.html" class="black-text">Portfolio</a>
+            </li>
+            <li class="active">
+              <a href="contact.html" class="black-text">Contact</a>
+            </li>
+            <li>
+              <a href="#login-modal" class="btn brown modal-trigger">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Showcase-->
+    <div class="showcase container">
+      <div class="row">
+        <div class="col s12 m10 offset-m1 center">
+          <h3 class="brown-text">Ready to work together?</h3>
+          <h5 class="brown-text text-lighten 2">Complete the following form and I'll reach you as soon as possible</h5>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--Sidenav Structure-->
+  <ul id="slide-out" class="sidenav">
+    <h4 class="brown-text text-darken-4 center">Select</h4>
+    <div class="divider"></div>
+    <li>
+      <a href="index.html">Home</a>
+    </li>
+    <li>
+      <a href="personal.html">Portfolio</a>
+    </li>
+    <li class="active">
+      <a href="contact.html">Contact</a>
+    </li>
+    <li>
+      <a href="#login-modal" class="btn brown modal-trigger">Log in</a>
+    </li>
+  </ul>
+
+  <!--Section: Sign Up-->
+
+  <section class="section section-signup">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h3>General Information</h3>
+          <a href="#" class="far fa-envelope">Email</a>
+          <p class="italic">rizalyn.vierneza19@gmail.com</p>
+          <a href="#" class="fas fa-mobile-alt">Phone number</a>
+          <p class="italic">0926-952-1057</p>
+        </div>
+        <div class="col s12 m6">
+          <div class="card-panel grey lighten-4 grey-text text-lighten-4 z-depth-5">
+            <form action="">
+              <div class="input-field">
+                <input type="text" id="full_name">
+                <label for="full_name">Full Name</label>
+              </div>
+              <div class="input-field">
+                <input type="text" id="email address">
+                <label for="email_address">email address</label>
+              </div>
+              <div class="input-field">
+                <input type="text" id="contact_number">
+                <label for="contact_number">Contact number</label>
+              </div>
+              <div class="input-field">
+                <input type="text" id="Message">
+                <label for="message">Message</label>
+              </div>
+              <div class="input-field">
+                <div class="input-field">
+                  <select name="" id="">
+                    <option value="" disabled selected>Input Social Media link</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Twitter">Twitter</option>
+                  </select>
+                  <label for=""></label>
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                </div>
+                <div class="input-field">
+                  <input type="text" id="Link">
+                  <label for="link">Link</label>
+                </div>
+                <input type="submit" value="Signup" class="btn btn-large orange lighten-2 btn-extend black-text">
+            </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="page-footer orange lighten-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="h5 black-text">Let's Work Together!</h5>
+          <p class="black-text">Feel free to reach me in any of the following platform</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <ul>
+            <li><iconify-icon icon="simple-icons:netlify"></iconify-icon><p>netlify</p></li>
+            <li><a class="fab fa-linkedin" href="https://www.linkedin.com/login">Linkedin</a></li>
+            <li><a class="fab fa-github" href="https://github.com/">Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright brown lighten-2">
+      <div class="container">
+      © 2022 Copyright Text
+      </div>
+    </div>
+  </footer>
+      
+
+
+
+  <!--Login modal structure-->
+
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <h4>Account Login</h4>
+      <p>Login to access your account dashboard</p>
+      <form action="">
+        <div class="input-field">
+          <input type="text" id="email">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="password">
+          <label for="password">Password</label>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="modal-action modal-close btn blue">
+        <i class="material-icons left">clear</i>Exit
+      </a>
+    </div>
+  </div>
+
+
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      //Sidenav init
+      $('.sidenav').sidenav({
+        edge: 'right'
+      });
+      //Modal Init
+      $('.modal').modal();
+      //Carousel Init
+      $('.carousel').carousel();
+      //Select Init
+      $('select').formSelect();
+    });
+  </script>
+</body>
+
+</html>
